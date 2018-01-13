@@ -1,0 +1,9 @@
+---
+layout: [사용할_레이아웃]
+---
+NLP에 포함된 글들:
+<ul>
+	{% for post in site.categories.NLP %}
+	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
