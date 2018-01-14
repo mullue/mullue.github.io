@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bazel C++ 빌드 해보기
+categories: Tools
 ---
 
 
