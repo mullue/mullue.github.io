@@ -5,6 +5,7 @@ permalink: /category/
 ---
   
 <table width=800>
+	<!-- ML, AI -->
 	<tr><td colspan=3>&nbsp;</td></tr>
 	<tr><td colspan=3>ML, AI</td></tr>
 	{% for post in site.categories.ML_AI %}
@@ -12,7 +13,16 @@ permalink: /category/
 	    <td><li><a href="{{ post.url }}">{{ post.title }}</a></li> </td>
 	    <td>{{ post.date | date: '%B %d, %Y' }}</td></tr>
 	{% endfor %}
-	
+
+	<!-- NLP -->
+	<tr><td colspan=3>&nbsp;</td></tr>
+	<tr><td colspan=3>NLP</td></tr>
+	{% for post in site.categories.NLP %}
+	<tr><td>&nbsp</td>
+	    <td><li><a href="{{ post.url }}">{{ post.title }}</a></li> </td>
+	    <td>{{ post.date | date: '%B %d, %Y' }}</td></tr>
+	{% endfor %}
+		
 	<!-- Tools -->
 	<tr><td colspan=3>&nbsp;</td></tr>
 	<tr><td colspan=3>Tools</td></tr>
