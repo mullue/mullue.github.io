@@ -7,7 +7,7 @@ permalink: /category/
 <table width=800>
 	<tr><td colspan=3>&nbsp;</td></tr>
 	<tr><td colspan=3>ML, AI</td></tr>
-	{% for post in site.categories.NLP %}
+	{% for post in site.categories.ML_AI %}
 	<tr><td>&nbsp</td>
 	    <td><li><a href="{{ post.url }}">{{ post.title }}</a></li> </td>
 	    <td>{{ post.date | date: '%B %d, %Y' }}</td></tr>
@@ -25,7 +25,7 @@ permalink: /category/
 	<tr><td colspan=3>&nbsp;</td></tr>
 	<tr><td colspan=3>IT Market</td></tr>
 	{% for post in site.categories.ITMarket %}
-	<tr><td>&nbsp;dd</td>
+	<tr><td>&nbsp;</td>
 	    <td><li><a href="{{ post.url }}">{{ post.title }}</a></li> </td>
 	    <td>{{ post.date | date: '%B %d, %Y' }}</td></tr>
 	{% endfor %}
